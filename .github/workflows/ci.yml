@@ -20,4 +20,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t cicd-pipeline .
     - name: push to Dockerhub
-      run: docker push generaltester651/cicd-pipeline:latest
+      run: docker push generaltester650/cicd-pipeline:latest
